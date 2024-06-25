@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap');
+
+.logo {
+    width: 120px;
+    height: 120px;
+    display: flex;
+    position: relative;
+
+    &:hover {
+        width: 140px;
+        height: 140px;
+        transform: translateY(-5px);
+        transition-duration: 0.1s;
+    }
+
+    &:active {
+        width: 100px;
+        height: 100px;
+        transform: translateY(-10px);
+        transition-duration: 0.1s;
+    }
+
+
+    transition-duration: 0.1s;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    color: transparent;
+    padding: 10px;
+    background-color: transparent;
+    border: none;
+    width: fit-content;
+    height: fit-content;
+}
